@@ -1,0 +1,35 @@
+# Site settings
+title: I'm lonlin0731
+email: lonlin0731@163.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://lonlin0731.github.io" # the base hostname & protocol for your site
+
+
+# Sidebar filter
+# Choose 'tag' or 'category' as filter in sidebar.
+filter: 'category'
+
+
+# Social account
+github:   lonlin0731
+# codepen:  username
+# dribbble: username
+
+
+
+# Google Analytics
+# google_analytics: tracking_ID
+
+
+# Build settings
+markdown: rdiscount
+permalink: /blog/:year/:month/:day/:title.html
+
+sass:
+  style: compressed
+gems:
+  - jekyll-sitemap
